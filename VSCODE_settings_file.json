@@ -1,0 +1,52 @@
+
+{
+  // Color and theme editor
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Color and theme derivates
+  "polacode.backgroundColor": "#6633CC",
+
+  // Bracket Colorization Nativo do VSCODE 
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs":"active",
+
+  // Inicialização
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 0,
+
+  // Configs
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "Consolas",
+  "editor.semanticHighlighting.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "breadcrumbs.enabled": true, 
+  "explorer.confirmDragAndDrop": false, // Warning
+  "explorer.confirmDelete": false, // Warning
+  "editor.rulers": [80, 120],
+  
+  // eslint -> IMPORTANT
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Outhers
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "files.associations": {
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      ".prettierrc": "json",
+      "*.tsx": "typescriptreact",
+      ".env.*": "dotenv"
+  },
+
+  // GIT
+  "git.enableSmartCommit": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+}
